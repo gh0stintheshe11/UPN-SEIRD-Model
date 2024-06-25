@@ -5,3 +5,4 @@ scipy
 pandas
 joblib
 powerlaw
+seaborn
