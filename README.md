@@ -20,26 +20,8 @@ pip install -r requirement.txt
 ```
 
 ### UPN & SEIRD standalone simulation
-  * infomation layer -> BA
-  * epidemic layer -> GIRG
     
 ### UPN-SEIRD hybrid model simulation
-  * both layers -> BA
-
-
-```python
-# Example usage:
-n = 1000  # number of nodes
-d = 2  # dimension
-tau = 2.5  # power-law exponent
-alpha = 2  # distance dependence exponent
-expected_weight = 1  # expected weight
-
-G = GIRG(n, d, tau, alpha, expected_weight).graph
-
-# Visualize the network
-visualize_network(G)
-```
 
 ## Results
 
